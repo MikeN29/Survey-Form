@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Shiba Inu Survey</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Shiba Inu Survey<h1>
+    </div>
+        <div>
+             <p id="description">This is a short survey about Shiba Inu</p>
+    </div>
+        <form id="survey-form">
+          <label id="name-label">Name</label>
+          <br>
+          <input type="text" id="name" for="name-label" placeholder="Please enter your name" required>
+          <br>
+          <label id="email-label">Email</label>
+          <br>
+          <input type="email" id="email" for="email-label" placeholder="Please enter a valid Email" required>
+          <br>
+          <label id="number-label" type="number">How many Shiba Inu do you own?</label>
+          <br>
+          <input type="number" id="number" for="number-label" placeholder="Please enter a Valid Number" min="1" max="1000">
+          <br>
+          <label id="dropdown">Favorite Colour of Shiba Inu</label>
+          <br>
+          <select id="dropdown" name="dropdown">
+          <option value="Tan">Tan</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            </select>
+          <br>
+          <label for="sex">Favorite Sex?</label>
+          <br>
+          <input id="sex" type="radio" value="male" name="male-female">Male</input>
+        <input id="sex" type="radio" value="female" name="male-female">Female</input>
+      <br>
+      <label for="favoritefood">Favorite Food</label>
+      <br>
+      <input id="favoritefood" type="checkbox" value="chicken" name="favoritefood">Chicken</input>
+    <input id="favoritefood" type="checkbox" value="beef" name="favoritefood">Beef</input>
+  <input id="favoritefood" type="checkbox" value="driedbiscuit" name="favoritefood">Dried Biscuit</input>
+      <br>
+<textarea name="message" rows="5" cols="30">Any additonal comnents...  </textarea>
+  <br>
+   <button type="submit" id="submit">Submit</button>
+          
+          
+        </form>
+  </body>
+</html>
